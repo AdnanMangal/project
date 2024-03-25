@@ -37,6 +37,10 @@ header ul li{
     background-repeat: no-repeat;
     padding: 50px;
 }
+.about .main{
+    display: flex;
+    justify-content: space-between;
+}
 .about img{
     width: 250px;
     border: 10px solid white;
@@ -46,30 +50,49 @@ header ul li{
 .about h1{
     font-size: 2.5rem;
     margin-top: 10px;
-    color: rgb(255, 255, 255);
+    background: #000000;
+    padding: 10px;
+    border-radius: 8px;
+    color:rgb(255, 230, 0);
+    text-align: center;
 }
+
 .about h3{
-    color:#000000;
-    font-size: 2rem;
-    
+    font-size: 2em;
+    color:white;
+    }
+.skill,.h-three,.contact,.h-one1{
+    background: #000000;
+    padding: 10px 20px !important;
+    border-radius: 8px;
+    color:rgb(255, 230, 0);
+    display: inline-block;
 }
+
 dl{
     font-size: 20px;
     margin-left: 10px;
     padding-top:30px ;
     font-weight: bold;
 }
+.project h1{
+    font-size: 2.5rem;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+}
 .container{
     margin-top: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-around ;
+    
 }
 .container h3{
     font-size: 2rem;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-align: center;
+    
 }
 .project-one img{
     width:300px;
@@ -85,6 +108,44 @@ dl{
 #table{
     background: #147693;
     padding: 20px;
+}
+#table .heading{
+    background: #000000;
+    color:#fff;
+    border: none;
+}
+#table .heading span{
+    color:rgb(255, 230, 0);
+}
+.tble input{
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.tble .h-one{
+    background: #000000;
+    color:rgb(255, 230, 0);
+    border: none;
+}
+.tble .submit{
+    background: #000000;
+    color:rgb(255, 230, 0);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 10px;
+}
+#singup input{
+    border: none;
+    outline: none;
+}
+#singup .submit{
+    background: #000000;
+    color:rgb(255, 230, 0);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 10px;
 }
 table{
     margin: 50px auto;
@@ -107,10 +168,15 @@ tfoot{
 tbody{
     background: #9abcc7;
 }
+
 footer{
     text-align: center;
     font-size: 20px;
     padding: 10px;
     background: #147693;
     color: #fff;
+    cursor: pointer;
+}
+footer span:hover{
+    color:rgb(255, 191, 16);
 }
